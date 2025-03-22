@@ -1113,10 +1113,10 @@
   resolved "https://registry.npmjs.org/@ungap/structured-clone/-/structured-clone-1.3.0.tgz"
   integrity sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==
 
-"@victorsouzaleal/biblioteca-lbot@^2.2.6":
-  version "2.2.6"
-  resolved "https://registry.npmjs.org/@victorsouzaleal/biblioteca-lbot/-/biblioteca-lbot-2.2.6.tgz"
-  integrity sha512-m/oQqkFA5fYic1ItG7jHWCmYx2Og0h7UllEhuKChBc1BjDWsC710FmjMk7ayGrnnEKsalrU0w5GID/vQDFwd0Q==
+"@victorsouzaleal/biblioteca-lbot@^2.2.7":
+  version "2.2.7"
+  resolved "https://registry.npmjs.org/@victorsouzaleal/biblioteca-lbot/-/biblioteca-lbot-2.2.7.tgz"
+  integrity sha512-VkCCwo6CzDePCW/H29cbD8h7UmWqsXnL8cA/t684vEsxoxMsrbswKhn/BkpZjh+hqoLS3vWaSAjwF8kEQM5JJQ==
   dependencies:
     "@deepgram/sdk" "^3.5.1"
     "@distube/ytdl-core" "^4.16.5"
@@ -1818,13 +1818,13 @@ curve25519-js@^0.0.4:
   integrity sha512-axn2UMEnkhyDUPWOwVKBMVIzSQy2ejH2xRGy1wq81dqRwApXfIzfbE3hIX0ZRFBIihf/KDqK158DLwESu4AK1w==
 
 "cyberbot@file:":
-  version "1.0.0"
+  version "3.0.1"
   resolved "file:"
   dependencies:
     "@hapi/boom" "^10.0.1"
     "@seald-io/nedb" "^4.0.4"
     "@types/prompt-sync" "^4.2.3"
-    "@victorsouzaleal/biblioteca-lbot" "^2.2.6"
+    "@victorsouzaleal/biblioteca-lbot" "^2.2.7"
     baileys "^6.7.16"
     chalk "^4.1.0"
     cyberbot "file:"
@@ -1832,6 +1832,7 @@ curve25519-js@^0.0.4:
     format-duration "^3.0.2"
     fs-extra "^11.3.0"
     instagram-url-direct "^2.0.2"
+    lbot-whatsapp "file:"
     moment-timezone "^0.5.47"
     node-cache "^5.1.2"
     pino "7.11.0"
@@ -3092,6 +3093,27 @@ keyv@^5.3.1:
   integrity sha512-Lji2XRxqqa5Wg+CHLVfFKBImfJZ4pCSccu9eVWK6w4c2SDFLd8JAn1zqTuSFnsxb7ope6rMsnIHfp+eBbRBRZQ==
   dependencies:
     "@keyv/serialize" "^1.0.3"
+
+"lbot-whatsapp@file:":
+  version "3.0.1"
+  resolved "file:"
+  dependencies:
+    "@hapi/boom" "^10.0.1"
+    "@seald-io/nedb" "^4.0.4"
+    "@types/prompt-sync" "^4.2.3"
+    "@victorsouzaleal/biblioteca-lbot" "^2.2.7"
+    baileys "^6.7.16"
+    chalk "^4.1.0"
+    cyberbot "file:"
+    dotenv "^16.4.7"
+    format-duration "^3.0.2"
+    fs-extra "^11.3.0"
+    instagram-url-direct "^2.0.2"
+    lbot-whatsapp "file:"
+    moment-timezone "^0.5.47"
+    node-cache "^5.1.2"
+    pino "7.11.0"
+    qrcode-terminal "^0.12.0"
 
 levn@^0.4.1:
   version "0.4.1"
