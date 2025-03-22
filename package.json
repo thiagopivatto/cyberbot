@@ -34,7 +34,6 @@
     "@victorsouzaleal/biblioteca-lbot": "^2.2.7",
     "baileys": "^6.7.16",
     "chalk": "^4.1.0",
-    "cyberbot": "file:",
     "dotenv": "^16.4.7",
     "format-duration": "^3.0.2",
     "fs-extra": "^11.3.0",
